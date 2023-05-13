@@ -3,9 +3,14 @@
 
 #include <iostream>
 
+#include "Project.h"
+
 int main()
 {
     std::cout << "Hello World!\n";
+
+    loadProject();
+
 }
 
 // Executar programa: Ctrl + F5 ou Menu Depurar > Iniciar Sem Depuração
