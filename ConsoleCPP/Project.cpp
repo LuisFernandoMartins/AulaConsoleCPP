@@ -23,7 +23,9 @@ void TextMainMenu()
 void ShowMainMenu()
 {
 	int op = 1;
-	while (op != 0) {
+	while (op != 0) 
+	{
+		Luis();
 		TextMainMenu();
 		std::cin >> op;
 		switch (op)
@@ -33,4 +35,9 @@ void ShowMainMenu()
 			break;
 		}
 	}
+}
+
+void Luis()
+{
+	std::cout << "\033[38;2;0;255;255m Salve, Luis aqui" << std::endl;
 }

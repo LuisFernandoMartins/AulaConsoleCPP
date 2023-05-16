@@ -7,3 +7,5 @@ void About();
 void TextMainMenu();
 
 void ShowMainMenu();
+
+void Luis();
